@@ -55,7 +55,7 @@ public class botones_dinamicos extends javax.swing.JFrame {
                 btn2ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn2, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 260, 130, 120));
+        jPanel1.add(btn2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 270, 130, 120));
 
         btn1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/home_72.png"))); // NOI18N
@@ -65,18 +65,18 @@ public class botones_dinamicos extends javax.swing.JFrame {
         btn1.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/home_72.png"))); // NOI18N
         btn1.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/home_96.png"))); // NOI18N
         btn1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jPanel1.add(btn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(44, 260, 110, 120));
+        jPanel1.add(btn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 270, 110, 120));
 
         jLabel2.setBackground(new java.awt.Color(0, 0, 0));
         jLabel2.setFont(new java.awt.Font("Roboto Medium", 1, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Transporte Publico Urbano");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 80, 240, 70));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 120, 240, 70));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/trans2.jpg"))); // NOI18N
         jLabel1.setText("jLabel1");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 0, 280, 490));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 40, 340, 560));
 
         jLabel3.setFont(new java.awt.Font("Roboto Black", 1, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(0, 0, 0));
