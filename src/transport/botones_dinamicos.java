@@ -38,13 +38,14 @@ public class botones_dinamicos extends javax.swing.JFrame {
         jTextField1 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setPreferredSize(new java.awt.Dimension(810, 600));
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         btn2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btn2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/next_64.png"))); // NOI18N
-        btn2.setText("Next");
+        btn2.setText("Siguiente");
         btn2.setContentAreaFilled(false);
         btn2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btn2.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/next_64.png"))); // NOI18N
@@ -59,7 +60,7 @@ public class botones_dinamicos extends javax.swing.JFrame {
 
         btn1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/home_72.png"))); // NOI18N
-        btn1.setText("Home");
+        btn1.setText("Casa");
         btn1.setContentAreaFilled(false);
         btn1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btn1.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/home_72.png"))); // NOI18N
@@ -74,9 +75,8 @@ public class botones_dinamicos extends javax.swing.JFrame {
         jLabel2.setText("Transporte Publico Urbano");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 120, 240, 70));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/trans2.jpg"))); // NOI18N
-        jLabel1.setText("jLabel1");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 40, 340, 560));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/Portada1.1.jpg"))); // NOI18N
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 60, 360, 540));
 
         jLabel3.setFont(new java.awt.Font("Roboto Black", 1, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(0, 0, 0));

@@ -8,12 +8,12 @@ package transport;
  *
  * @author Sammy Guergachi <sguergachi at gmail.com>
  */
-public class Ventana2 extends javax.swing.JFrame {
+public class VentanaSiguiente extends javax.swing.JFrame {
 
     /**
-     * Creates new form Ventana2
+     * Creates new form VentanaSiguiente
      */
-    public Ventana2() {
+    public VentanaSiguiente() {
         initComponents();
         this.setLocationRelativeTo(null);
         this.setResizable(false);
@@ -31,16 +31,13 @@ public class Ventana2 extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         boton1 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
-        boton2 = new javax.swing.JButton();
         boton3 = new javax.swing.JButton();
         boton4 = new javax.swing.JButton();
         boton5 = new javax.swing.JButton();
-        btn2 = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
+        boton6 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setPreferredSize(new java.awt.Dimension(810, 600));
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -58,26 +55,10 @@ public class Ventana2 extends javax.swing.JFrame {
                 boton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(boton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 420, 140, 122));
+        jPanel1.add(boton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 410, 140, 122));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/Poratada1.2.jpg"))); // NOI18N
-        jLabel1.setText("jLabel1");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 0, 360, 620));
-
-        boton2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        boton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bus_64px.png"))); // NOI18N
-        boton2.setText("Ruta 21");
-        boton2.setContentAreaFilled(false);
-        boton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        boton2.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bus_64px.png"))); // NOI18N
-        boton2.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bus_90px.png"))); // NOI18N
-        boton2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        boton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                boton2ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(boton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 210, 191, 122));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/portadaHorizontal.jpg"))); // NOI18N
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 720, 240));
 
         boton3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         boton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bus_64px.png"))); // NOI18N
@@ -92,7 +73,7 @@ public class Ventana2 extends javax.swing.JFrame {
                 boton3ActionPerformed(evt);
             }
         });
-        jPanel1.add(boton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 70, 191, 122));
+        jPanel1.add(boton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 280, 191, 122));
 
         boton4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         boton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bus_64px.png"))); // NOI18N
@@ -107,11 +88,11 @@ public class Ventana2 extends javax.swing.JFrame {
                 boton4ActionPerformed(evt);
             }
         });
-        jPanel1.add(boton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 70, 191, 122));
+        jPanel1.add(boton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 280, 191, 122));
 
         boton5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         boton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bus_64px.png"))); // NOI18N
-        boton5.setText("Ruta 10");
+        boton5.setText("Ruta 6");
         boton5.setContentAreaFilled(false);
         boton5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         boton5.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bus_64px.png"))); // NOI18N
@@ -122,51 +103,42 @@ public class Ventana2 extends javax.swing.JFrame {
                 boton5ActionPerformed(evt);
             }
         });
-        jPanel1.add(boton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 210, 191, 122));
+        jPanel1.add(boton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 420, 191, 122));
 
-        btn2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        btn2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/next_64.png"))); // NOI18N
-        btn2.setText("Siguiente");
-        btn2.setContentAreaFilled(false);
-        btn2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btn2.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/next_64.png"))); // NOI18N
-        btn2.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/next_96.png"))); // NOI18N
-        btn2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        btn2.addActionListener(new java.awt.event.ActionListener() {
+        boton6.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        boton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bus_64px.png"))); // NOI18N
+        boton6.setText("Ruta 6");
+        boton6.setContentAreaFilled(false);
+        boton6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        boton6.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bus_64px.png"))); // NOI18N
+        boton6.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bus_90px.png"))); // NOI18N
+        boton6.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        boton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn2ActionPerformed(evt);
+                boton6ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn2, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 420, 140, 120));
+        jPanel1.add(boton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 420, 191, 122));
 
-        jLabel2.setFont(new java.awt.Font("Roboto Black", 1, 14)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(51, 51, 51));
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setText("¡Hola, elige el numero del autobus \n");
-        jLabel2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 380, 30));
-
-        jLabel3.setFont(new java.awt.Font("Roboto Black", 1, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(51, 51, 51));
-        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setText("del que quieres informarte!");
-        jLabel3.setToolTipText("");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 370, 30));
-
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 810, 600));
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void boton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton1ActionPerformed
-        botones_dinamicos newframe = new botones_dinamicos();
+        Ventana2 newframe = new Ventana2();
         newframe.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_boton1ActionPerformed
-
-    private void boton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_boton2ActionPerformed
 
     private void boton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton3ActionPerformed
         Ruta_1 newframe = new Ruta_1();
@@ -175,20 +147,16 @@ public class Ventana2 extends javax.swing.JFrame {
     }//GEN-LAST:event_boton3ActionPerformed
 
     private void boton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton4ActionPerformed
-        Ruta_6 newframe = new Ruta_6();
-        newframe.setVisible(true);
-        this.dispose();
+        // TODO add your handling code here:
     }//GEN-LAST:event_boton4ActionPerformed
 
     private void boton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton5ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_boton5ActionPerformed
 
-    private void btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn2ActionPerformed
-        VentanaSiguiente newframe = new VentanaSiguiente();
-        newframe.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_btn2ActionPerformed
+    private void boton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_boton6ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -207,34 +175,31 @@ public class Ventana2 extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Ventana2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VentanaSiguiente.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Ventana2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VentanaSiguiente.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Ventana2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VentanaSiguiente.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Ventana2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VentanaSiguiente.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Ventana2().setVisible(true);
+                new VentanaSiguiente().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton boton1;
-    private javax.swing.JButton boton2;
     private javax.swing.JButton boton3;
     private javax.swing.JButton boton4;
     private javax.swing.JButton boton5;
-    private javax.swing.JButton btn2;
+    private javax.swing.JButton boton6;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }

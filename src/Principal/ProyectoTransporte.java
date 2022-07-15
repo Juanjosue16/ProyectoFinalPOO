@@ -34,8 +34,10 @@ public class ProyectoTransporte {
         
         
         //Ventana Jframe
-        botones_dinamicos V1 = new botones_dinamicos();
-        V1.setVisible(true);
+        //botones_dinamicos V1 = new botones_dinamicos();
+        //V1.setVisible(true);
+        
+        botones_dinamicos.main(args);
 
     }
 }

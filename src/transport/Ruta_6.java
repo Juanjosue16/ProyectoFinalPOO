@@ -8,12 +8,12 @@ package transport;
  *
  * @author Sammy Guergachi <sguergachi at gmail.com>
  */
-public class Ruta_1 extends javax.swing.JFrame {
+public class Ruta_6 extends javax.swing.JFrame {
 
     /**
      * Creates new form Ruta_1
      */
-    public Ruta_1() {
+    public Ruta_6() {
         initComponents();
         this.setLocationRelativeTo(null);
         this.setResizable(false);
@@ -64,7 +64,7 @@ public class Ruta_1 extends javax.swing.JFrame {
         });
         jPanel1.add(boton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 460, 140, 122));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/maps2.jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/recorrido6.jpg"))); // NOI18N
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, -10, 470, 620));
 
         jLabel2.setFont(new java.awt.Font("Roboto Black", 1, 14)); // NOI18N
@@ -91,11 +91,11 @@ public class Ruta_1 extends javax.swing.JFrame {
         jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/transportation_40px.png"))); // NOI18N
-        jLabel6.setText("RUTA 1");
+        jLabel6.setText("RUTA 6");
         jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 140, 60));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/recorrido_ruta1.jpg"))); // NOI18N
-        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 100, 360, 160));
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/Paradros_tuta1.jpg"))); // NOI18N
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 100, 420, 180));
 
         jLabel8.setFont(new java.awt.Font("Roboto Black", 1, 14)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(51, 51, 51));
@@ -107,9 +107,9 @@ public class Ruta_1 extends javax.swing.JFrame {
         jLabel9.setFont(new java.awt.Font("Roboto Black", 1, 14)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(51, 51, 51));
         jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel9.setText("El bus es de color verde");
+        jLabel9.setText("El bus es de color Naranja");
         jLabel9.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, 240, 30));
+        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 290, 240, 30));
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/Horario_ruta1.jpg"))); // NOI18N
         jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 340, 230, 80));
@@ -117,8 +117,8 @@ public class Ruta_1 extends javax.swing.JFrame {
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/Tarifa_ruta1.jpg"))); // NOI18N
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 480, 240, 90));
 
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ruta1_color.jpg"))); // NOI18N
-        jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 350, 250, 90));
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bus6_1.jpg"))); // NOI18N
+        jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 330, 190, 120));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 810, 600));
 
@@ -148,20 +148,21 @@ public class Ruta_1 extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Ruta_1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Ruta_6.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Ruta_1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Ruta_6.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Ruta_1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Ruta_6.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Ruta_1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Ruta_6.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Ruta_1().setVisible(true);
+                new Ruta_6().setVisible(true);
             }
         });
     }
