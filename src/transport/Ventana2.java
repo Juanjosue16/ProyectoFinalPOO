@@ -66,7 +66,8 @@ public class Ventana2 extends javax.swing.JFrame {
 
         boton2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         boton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bus_64px.png"))); // NOI18N
-        boton2.setText("Ruta 21");
+        boton2.setText("Ruta 7");
+        boton2.setActionCommand("Ruta 7");
         boton2.setContentAreaFilled(false);
         boton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         boton2.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bus_64px.png"))); // NOI18N
@@ -144,14 +145,14 @@ public class Ventana2 extends javax.swing.JFrame {
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("¡Hola, elige el numero del autobus \n");
         jLabel2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 380, 30));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 0, 380, 30));
 
         jLabel3.setFont(new java.awt.Font("Roboto Black", 1, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(51, 51, 51));
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("del que quieres informarte!");
         jLabel3.setToolTipText("");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 370, 30));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 30, 370, 30));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 810, 600));
 
@@ -165,7 +166,9 @@ public class Ventana2 extends javax.swing.JFrame {
     }//GEN-LAST:event_boton1ActionPerformed
 
     private void boton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton2ActionPerformed
-        // TODO add your handling code here:
+        Ruta_7 newframe = new Ruta_7();
+        newframe.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_boton2ActionPerformed
 
     private void boton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton3ActionPerformed
@@ -181,7 +184,9 @@ public class Ventana2 extends javax.swing.JFrame {
     }//GEN-LAST:event_boton4ActionPerformed
 
     private void boton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton5ActionPerformed
-        // TODO add your handling code here:
+        Ruta_10 newframe = new Ruta_10();
+        newframe.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_boton5ActionPerformed
 
     private void btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn2ActionPerformed

@@ -37,7 +37,6 @@ public class VentanaSiguiente extends javax.swing.JFrame {
         boton6 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(810, 600));
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -62,7 +61,7 @@ public class VentanaSiguiente extends javax.swing.JFrame {
 
         boton3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         boton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bus_64px.png"))); // NOI18N
-        boton3.setText("Ruta 1");
+        boton3.setText("Ruta 8");
         boton3.setContentAreaFilled(false);
         boton3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         boton3.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bus_64px.png"))); // NOI18N
@@ -77,7 +76,7 @@ public class VentanaSiguiente extends javax.swing.JFrame {
 
         boton4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         boton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bus_64px.png"))); // NOI18N
-        boton4.setText("Ruta 6");
+        boton4.setText("Ruta 14");
         boton4.setContentAreaFilled(false);
         boton4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         boton4.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bus_64px.png"))); // NOI18N
@@ -92,7 +91,7 @@ public class VentanaSiguiente extends javax.swing.JFrame {
 
         boton5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         boton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bus_64px.png"))); // NOI18N
-        boton5.setText("Ruta 6");
+        boton5.setText("Ruta 21");
         boton5.setContentAreaFilled(false);
         boton5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         boton5.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bus_64px.png"))); // NOI18N
@@ -107,7 +106,7 @@ public class VentanaSiguiente extends javax.swing.JFrame {
 
         boton6.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         boton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bus_64px.png"))); // NOI18N
-        boton6.setText("Ruta 6");
+        boton6.setText("Ruta 12");
         boton6.setContentAreaFilled(false);
         boton6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         boton6.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bus_64px.png"))); // NOI18N
@@ -141,21 +140,27 @@ public class VentanaSiguiente extends javax.swing.JFrame {
     }//GEN-LAST:event_boton1ActionPerformed
 
     private void boton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton3ActionPerformed
-        Ruta_1 newframe = new Ruta_1();
+        Ruta_8 newframe = new Ruta_8();
         newframe.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_boton3ActionPerformed
 
     private void boton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton4ActionPerformed
-        // TODO add your handling code here:
+        Ruta_14 newframe = new Ruta_14();
+        newframe.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_boton4ActionPerformed
 
     private void boton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton5ActionPerformed
-        // TODO add your handling code here:
+        Ruta_21 newframe = new Ruta_21();
+        newframe.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_boton5ActionPerformed
 
     private void boton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton6ActionPerformed
-        // TODO add your handling code here:
+        Ruta_12 newframe = new Ruta_12();
+        newframe.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_boton6ActionPerformed
 
     /**
