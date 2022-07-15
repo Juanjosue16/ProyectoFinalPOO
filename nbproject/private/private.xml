@@ -4,9 +4,10 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/USUARIO/Documents/DOCUMENTOS%20UNSCH/100%20Par/Programacion_orientada_a_objetos-IS-142/Trabajo%20Final/Transport/src/transport/botones_dinamicos.java</file>
-            <file>file:/C:/Users/USUARIO/Documents/DOCUMENTOS%20UNSCH/100%20Par/Programacion_orientada_a_objetos-IS-142/Trabajo%20Final/Transport/src/transport/VentanaSiguiente.java</file>
-            <file>file:/C:/Users/USUARIO/Documents/DOCUMENTOS%20UNSCH/100%20Par/Programacion_orientada_a_objetos-IS-142/Trabajo%20Final/Transport/src/transport/Ventana2.java</file>
-            <file>file:/C:/Users/USUARIO/Documents/DOCUMENTOS%20UNSCH/100%20Par/Programacion_orientada_a_objetos-IS-142/Trabajo%20Final/Transport/src/transport/Ruta_12.java</file>
+            <file>file:/C:/Users/USUARIO/Documents/DOCUMENTOS%20UNSCH/100%20Par/Programacion_orientada_a_objetos-IS-142/Trabajo%20Final/Transport/src/clases/Recorrido.java</file>
+            <file>file:/C:/Users/USUARIO/Documents/DOCUMENTOS%20UNSCH/100%20Par/Programacion_orientada_a_objetos-IS-142/Trabajo%20Final/Transport/src/clases/Autobus.java</file>
+            <file>file:/C:/Users/USUARIO/Documents/DOCUMENTOS%20UNSCH/100%20Par/Programacion_orientada_a_objetos-IS-142/Trabajo%20Final/Transport/src/clases/Paradero.java</file>
+            <file>file:/C:/Users/USUARIO/Documents/DOCUMENTOS%20UNSCH/100%20Par/Programacion_orientada_a_objetos-IS-142/Trabajo%20Final/Transport/src/Principal/ProyectoTransporte.java</file>
         </group>
     </open-files>
 </project-private>

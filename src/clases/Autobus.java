@@ -5,19 +5,21 @@ package clases;
 public class Autobus {
     
     private String placa;
-    private int nombre_ruta;
+    private String nombre_ruta;
     private String destino;
-    private double tarifa;
+    private String tarifa;
     private String paraderoInicial;
     private String diasDeServicio;
+    private String horarioTrabajo;
 
-    public Autobus(String placa, int nombre_ruta, String destino, double tarifa, String paraderoInicial, String diasDeServicio) {
+    public Autobus(String placa, String nombre_ruta, String destino, String tarifa, String paraderoInicial, String diasDeServicio, String horarioTrabajo) {
         this.placa = placa;
         this.nombre_ruta = nombre_ruta;
         this.destino = destino;
         this.tarifa = tarifa;
         this.paraderoInicial = paraderoInicial;
         this.diasDeServicio = diasDeServicio;
+        this.horarioTrabajo = horarioTrabajo;
     }
 
     public String getPlaca() {
@@ -28,11 +30,11 @@ public class Autobus {
         this.placa = placa;
     }
 
-    public int getNombre_ruta() {
+    public String getNombre_ruta() {
         return nombre_ruta;
     }
 
-    public void setNombre_ruta(int nombre_ruta) {
+    public void setNombre_ruta(String nombre_ruta) {
         this.nombre_ruta = nombre_ruta;
     }
 
@@ -44,11 +46,11 @@ public class Autobus {
         this.destino = destino;
     }
 
-    public double getTarifa() {
+    public String getTarifa() {
         return tarifa;
     }
 
-    public void setTarifa(double tarifa) {
+    public void setTarifa(String tarifa) {
         this.tarifa = tarifa;
     }
 
@@ -67,7 +69,20 @@ public class Autobus {
     public void setDiasDeServicio(String diasDeServicio) {
         this.diasDeServicio = diasDeServicio;
     }
+
+    public String getHorarioTrabajo() {
+        return horarioTrabajo;
+    }
+
+    public void setHorarioTrabajo(String horarioTrabajo) {
+        this.horarioTrabajo = horarioTrabajo;
+    }
     
+    
+    public String mostrarDatosAutobus(){
+        return "Placa: "+placa+"\nNombre de la Ruta: "+nombre_ruta+"\nDestino: "+destino+"\nTarifa: "+tarifa+"\nParadero Inicial: "+paraderoInicial+"\nDias de servicio: "+diasDeServicio+"\nHorario de Trabajo: "+horarioTrabajo;
+            
+    }
     
    
     

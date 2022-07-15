@@ -1,16 +1,27 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package clases;
 
-/**
- *
- * @author hp
- */
+
 public class Recorrido {
     
-    private String avenida;
+    private String principalesRecorridos;
+
+    public Recorrido(String principalesRecorridos) {
+        this.principalesRecorridos = principalesRecorridos;
+    }
+
+    public String getPrincipalesRecorridos() {
+        return principalesRecorridos;
+    }
+
+    public void setPrincipalesRecorridos(String principalesRecorridos) {
+        this.principalesRecorridos = principalesRecorridos;
+    }
+    
+    
+    public String mostrarRecorrido(){
+        return "==>"+principalesRecorridos;
+    }
     
    
 }

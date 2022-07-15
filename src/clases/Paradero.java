@@ -10,5 +10,19 @@ package clases;
  */
 public class Paradero {
     private String ubicacion_paradero;
+
+    public Paradero(String ubicacion_paradero) {
+        this.ubicacion_paradero = ubicacion_paradero;
+    }
+
+    public String getUbicacion_paradero() {
+        return ubicacion_paradero;
+    }
+
+    public void setUbicacion_paradero(String ubicacion_paradero) {
+        this.ubicacion_paradero = ubicacion_paradero;
+    }
+    
+    
     
 }
